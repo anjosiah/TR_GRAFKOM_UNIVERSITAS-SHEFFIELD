@@ -49,9 +49,9 @@ void init(void)
 {
 	glClearColor(0, 0, 0, 0);
 	glMatrixMode(GL_PROJECTION);
-	//glEnable(GL_LIGHTING);
-	//glEnable(GL_COLOR_MATERIAL);
-	//glEnable(GL_LIGHT0);
+	glEnable(GL_LIGHTING);
+	glEnable(GL_COLOR_MATERIAL);
+	glEnable(GL_LIGHT0);
 	glEnable(GL_BLEND);
 	glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
 	glViewport(0, 0, 800, 640);
